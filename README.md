@@ -44,15 +44,10 @@ LangChain_QA_Application/
 
 1. Clone this repo  
    ```bash
-   git clone https://github.com/<USERNAME>/LangChain_QA_Application.git
+   git clone https://github.com/DakshGoyal1506/LangChain_QA_Application.git
    cd LangChain_QA_Application
    ```
-2. Create & activate a virtual environment  
-   ```bash
-   python -m venv .venv
-   .venv\Scripts\activate       # on Windows
-   ```
-3. Install dependencies  
+2. Install dependencies  
    ```bash
    pip install -r requirements.txt
    ```
@@ -72,16 +67,16 @@ LangChain_QA_Application/
 - Format prompts, manage context windows, and handle multi-chain nesting.
 
 ### Streamlit App
-- `streamlit_app.py`  
+- `st_final.py`  
+
+### Final App
+- `app.py`  
 - Provide a web UI for user questions.  
 - Perform document loading, chunking, embedding lookup, and LLM invocation on the fly.  
 - Run with:
   ```bash
-  streamlit run streamlit_app.py
+  streamlit run .\app.py
   ```
-
-### Final App
-- `app.py`  
 - Wrap up the entire pipeline into a console or API-driven application.  
 - Entry point for deployment or containerization.
 
@@ -98,4 +93,4 @@ _(See `requirements.txt` for full list.)_
 
 ## License
 
-MIT © 2025 Your Name  
+MIT © 2025 Daksh Goyal
