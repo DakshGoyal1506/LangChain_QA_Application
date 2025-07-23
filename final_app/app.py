@@ -62,7 +62,7 @@ def clear_history():
 
 if __name__ == "__main__":
 
-    load_dotenv(find_dotenv(), override=True)
+    # load_dotenv(find_dotenv(), override=True)
 
     # st.image('img.png')
     st.subheader('LLM Question-Answering Application')
