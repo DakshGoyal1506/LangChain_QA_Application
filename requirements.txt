@@ -11,3 +11,9 @@ pypdf
 requests
 numpy
 pandas
+streamlit
+langchain_community
+langchain_text_splitters
+python-dotenv
+tiktoken
+chroma-client  
